@@ -13,7 +13,7 @@ export type ProjectPaginationRequest = {
 };
 
 const PROJECT_API_ENDPOINT = 'https://baas-data-provider.onrender.com/projects';
-const localy = `http://localhost:8080/projects`;
+const localy = `https://server.makkaf.xyz/projects`;
 
 async function fetchProjectsData({
   page = 1,
