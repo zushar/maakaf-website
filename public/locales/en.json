@@ -184,7 +184,8 @@
     "community": "Community",
     "newbies": "First time in Open Source",
     "members": "already participated in Open Source",
-    "maintainers": "Project maintainers who wants to join"
+    "maintainers": "Project maintainers who wants to join",
+    "contrebutors": "Contributors"
   },
   "Footer": {
     "projects": "Projects",
