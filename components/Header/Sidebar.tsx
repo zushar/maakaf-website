@@ -125,6 +125,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
                 )}
               </li>
             ))}
+            <li className="flex flex-col gap-3 p-5 select-none group hover:first:rounded-tl-md hover:first:rounded-tr-md hover:last:rounded-bl-md hover:last:rounded-br-md cursor-pointer leading-none text-darkText dark:text-lightText hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none">
+              <Link href='https://maakaf-website.vercel.app' className="transition duration-300 group">
+                <span>תורמים</span>
+              </Link> 
+            </li>
           </ul>
         </div>
       ) : null}
