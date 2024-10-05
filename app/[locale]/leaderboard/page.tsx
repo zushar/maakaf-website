@@ -1,5 +1,3 @@
-import Leaderboard from '@/components/Leaderboard/Leaderboard';
-
 export type Analitycs = {
   members: {
     name: string;
@@ -24,7 +22,8 @@ export type Analitycs = {
 const LeaderboardPage: React.FC = () => {
   return (
     <>
-    <Leaderboard />
+      <h1>Leaderboard</h1>
+      <p>Here you can see the top contributors of the week</p>
     </>
   )
 }
