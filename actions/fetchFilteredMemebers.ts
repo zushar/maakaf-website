@@ -14,7 +14,7 @@ const dummyMember: Member = {
   twitterUrl: '',
 };
 
-const MEMBER_ENDPOINT = 'https://baas-data-provider.onrender.com/members';
+const MEMBER_ENDPOINT = 'https://server.makkaf.xyz/members';
 
 export const fetchFilteredMembers = async (term: string) => {
   try {

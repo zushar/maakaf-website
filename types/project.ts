@@ -48,7 +48,7 @@ const SummarySchema = z.object({
     .array(
       z
         .object({
-          type: z.string(),
+          type: z.string().nullable(),
           message: z.string(),
         })
         ,
@@ -59,4 +59,3 @@ const SummarySchema = z.object({
 export const SummaryProjectType = SummarySchema;
 
 export type Project = z.infer<typeof SummarySchema>;
-

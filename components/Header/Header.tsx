@@ -29,6 +29,7 @@ const Header: React.FC = () => {
     newbies: t('newbies'),
     members: t('members'),
     maintainers: t('maintainers'),
+    contrebutors: t('contrebutors'),
   };
   return (
     <>

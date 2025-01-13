@@ -134,6 +134,12 @@
     "thirdOption": "Third option",
     "noMemberFound": "No Member found"
   },
+  "LeaderBoard": {
+    "MonthlyTitle": "Monthly Score",
+    "WeeklyTitle": "Weekly Score",
+    "AllTimesTitle": "All Times Score",
+    "card":{"name":"Name","Addition":"Addition","deletions":"Deletions","score":"Score","Projects":"Projects","commits":"Commits"}
+  },
   "Components": {
     "home": {
       "quotes": {
@@ -178,7 +184,8 @@
     "community": "Community",
     "newbies": "First time in Open Source",
     "members": "already participated in Open Source",
-    "maintainers": "Project maintainers who wants to join"
+    "maintainers": "Project maintainers who wants to join",
+    "contrebutors": "Contributors"
   },
   "Footer": {
     "projects": "Projects",
